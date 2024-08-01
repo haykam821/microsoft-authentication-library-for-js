@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722140451391,
+  "lastUpdate": 1722477254294,
   "repoUrl": "https://github.com/haykam821/microsoft-authentication-library-for-js",
   "entries": {
     "msal-node client-credential Regression Test": [
@@ -376,6 +376,44 @@ window.BENCHMARK_DATA = {
             "range": "±1.95%",
             "unit": "ops/sec",
             "extra": "222 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "167471362+ejahja@users.noreply.github.com",
+            "name": "ejahja",
+            "username": "ejahja"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6ac592be2397bedd3f2cea3e3efbbf495c4f3b0",
+          "message": "Update roadmap.md (#7223)\n\nRemoved outdated information, and added upcoming angular support",
+          "timestamp": "2024-07-31T14:45:57-07:00",
+          "tree_id": "bdd9481bd4992d6da9e735df1f807a1c0dad8082",
+          "url": "https://github.com/haykam821/microsoft-authentication-library-for-js/commit/f6ac592be2397bedd3f2cea3e3efbbf495c4f3b0"
+        },
+        "date": 1722477253048,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "ConfidentialClientApplication#acquireTokenByClientCredential-fromCache-resourceIsFirstItemInTheCache",
+            "value": 197001,
+            "range": "±2.17%",
+            "unit": "ops/sec",
+            "extra": "208 samples"
+          },
+          {
+            "name": "ConfidentialClientApplication#acquireTokenByClientCredential-fromCache-resourceIsLastItemInTheCache",
+            "value": 189772,
+            "range": "±1.94%",
+            "unit": "ops/sec",
+            "extra": "220 samples"
           }
         ]
       }
