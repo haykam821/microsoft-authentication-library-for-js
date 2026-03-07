@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765001654816,
+  "lastUpdate": 1772843366893,
   "repoUrl": "https://github.com/haykam821/microsoft-authentication-library-for-js",
   "entries": {
     "msal-node client-credential Regression Test": [
@@ -490,6 +490,44 @@ window.BENCHMARK_DATA = {
             "range": "±0.79%",
             "unit": "ops/sec",
             "extra": "235 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joarroyo@microsoft.com",
+            "name": "Jo Arroyo",
+            "username": "jo-arroyo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7955a28f4dcc7aeb10d8d9f8ce4805e8f7bc51fd",
+          "message": "[v5] Address CVE March 2026 (#8372)\n\nThis PR addresses remaining CVEs. Part I was #8335",
+          "timestamp": "2026-03-06T13:49:43-08:00",
+          "tree_id": "bb63f400b73f99b8767553306de43b49d29d438e",
+          "url": "https://github.com/haykam821/microsoft-authentication-library-for-js/commit/7955a28f4dcc7aeb10d8d9f8ce4805e8f7bc51fd"
+        },
+        "date": 1772843365730,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "ConfidentialClientApplication#acquireTokenByClientCredential-fromCache-resourceIsFirstItemInTheCache",
+            "value": 250226,
+            "range": "±0.86%",
+            "unit": "ops/sec",
+            "extra": "222 samples"
+          },
+          {
+            "name": "ConfidentialClientApplication#acquireTokenByClientCredential-fromCache-resourceIsLastItemInTheCache",
+            "value": 246508,
+            "range": "±0.73%",
+            "unit": "ops/sec",
+            "extra": "234 samples"
           }
         ]
       }
